@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TemperatureConverter</string>
+    <string name="pick_temp">Pick temperature!</string>
+    <string name="same_scales">You picked same scales!!</string>
+    <string name="source_set">Source set!</string>
+    <string name="dest_set">Destination set!</string>
+</resources>

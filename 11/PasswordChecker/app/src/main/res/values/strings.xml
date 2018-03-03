@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PasswordChecker</string>
+    <string name="lengthPassword">At least 13 characters length</string>
+    <string name="lowerCasePassword">At least one lower case letter</string>
+    <string name="upperCasePassword">At least one upper case letter</string>
+    <string name="numberPassword">At least one digit</string>
+    <string name="symbolPassword">At least one symbol eg. ! / ] *</string>
+</resources>

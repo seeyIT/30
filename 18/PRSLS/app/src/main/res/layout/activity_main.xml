@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context="com.kornel_ius.prsls.MainActivity">
+
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:background="@drawable/oval_button"
+            android:onClick="select"
+            android:tag="1"
+            android:text="@string/scissors"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_marginEnd="48dp"
+            android:background="@drawable/oval_button"
+            android:onClick="select"
+            android:tag="3"
+            android:text="@string/rock"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_marginStart="48dp"
+            android:background="@drawable/oval_button"
+            android:onClick="select"
+            android:tag="2"
+            android:text="@string/paper"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/oval_button"
+            android:onClick="select"
+            android:tag="4"
+            android:text="@string/lizard"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+
+            android:textSize="16sp" />
+
+        <Button
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/oval_button"
+            android:onClick="select"
+            android:tag="5"
+            android:text="@string/spock"
+            android:textAllCaps="false"
+
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

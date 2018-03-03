@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Pong</string>
+    <string name="you_lose">You lose!</string>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name="plus">+</string>
+    <string name="high">High</string>
+    <string name="medium">Medium</string>
+    <string name="low">Low</string>
+    <string name="add_task">Add Task</string>
+    <string name="task_added">Task added!</string>
+    <string name="name_new_task">Name new task!</string>
+</resources>

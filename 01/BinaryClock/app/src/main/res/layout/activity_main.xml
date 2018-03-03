@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.kornel_ius.binaryclock.MainActivity"
+    android:gravity="center"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:id="@+id/hoursTens2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:id="@+id/hoursTens1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginEnd="10dp">
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:id="@+id/hoursUnit8"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:id="@+id/hoursUnit4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:id="@+id/hoursUnit2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:id="@+id/hoursUnit1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:id="@+id/minutesTens4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:id="@+id/minutesTens2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:id="@+id/minutesTens1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginEnd="10dp">
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:id="@+id/minutesUnit8"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:id="@+id/minutesUnit4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:id="@+id/minutesUnit2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:id="@+id/minutesUnit1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:id="@+id/secondsTens4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:id="@+id/secondsTens2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:id="@+id/secondsTens1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:id="@+id/secondsUnit8"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:id="@+id/secondsUnit4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:id="@+id/secondsUnit2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:id="@+id/secondsUnit1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal" />
+    </LinearLayout>
+
+</LinearLayout>

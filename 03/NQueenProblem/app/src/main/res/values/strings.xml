@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">NQueenProblem</string>
+    <string name="cannot_place_queen">You cannot place here queen!</string>
+    <string name="win_message">CONGRATULATION !!!\n You solved it!</string>
+    <string name="restart">Restart</string>
+</resources>

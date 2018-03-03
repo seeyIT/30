@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DotCrossVector</string>
+    <string name="calculate">Calculate</string>
+    <string name="dot_product">Dot product: </string>
+    <string name="cross_product">Cross product: \n</string>
+    <string name="x">X</string>
+    <string name="y">Y</string>
+    <string name="z">Z</string>
+    <string name="vector_a">Vector A</string>
+    <string name="vector_b">Vector B</string>
+</resources>

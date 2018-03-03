@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PRSLS</string>
+    <string name="win">You won!</string>
+    <string name="lose">You lost!</string>
+    <string name="draw">Draw</string>
+    <string name="error">Error!</string>
+    <string name="paper">Paper</string>
+    <string name="rock">Rock!</string>
+    <string name="scissors">Scissors</string>
+    <string name="lizard">Lizard!</string>
+    <string name="spock">Spock!</string>
+</resources>

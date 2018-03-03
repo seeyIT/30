@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CaesarCipher</string>
+    <string name="to_caesar">To Ceasar</string>
+    <string name="from_caesar">From Ceasar</string>
+</resources>
